@@ -21,6 +21,10 @@
                     }
                 }
             }
+            .section-6{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
         }
     }
 }
@@ -59,6 +63,9 @@
                 .first-img1 {
                     display: none;
                 }
+            }
+            .section-6{
+                grid-template-columns: 1fr 1fr 1fr;
             }
         }
     }
@@ -118,8 +125,23 @@
                 p{
                     font-size: 14px;
                 }
+                img{
+                    margin-top: 30px;
+                }
             }
         }
 
+    }
+}
+@media (max-width:600px) {
+    .contianer{
+        main{
+            .section-6{
+                grid-template-columns: 1fr 1fr;
+                img{
+                    width: 100%;
+                }
+            }
+        }
     }
 }

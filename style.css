@@ -295,6 +295,11 @@
   width: 100%;
   margin-top: 100px;
 }
+.contianer main .section-6 {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+}
 
 @media (max-width: 1024px) {
   .contianer header .header-sign a {
@@ -309,6 +314,10 @@
   .contianer main .section-4 .rates .rate {
     width: 300px;
     height: 730px;
+  }
+  .contianer main .section-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 @media (max-width: 900px) {
@@ -336,6 +345,9 @@
   }
   .contianer main .section-1 .first-img1 {
     display: none;
+  }
+  .contianer main .section-6 {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media (max-width: 800px) {
@@ -375,5 +387,16 @@
   }
   .contianer main .section-5 p {
     font-size: 14px;
+  }
+  .contianer main .section-5 img {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .contianer main .section-6 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .contianer main .section-6 img {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
