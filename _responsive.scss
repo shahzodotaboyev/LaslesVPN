@@ -1,0 +1,23 @@
+@media (max-width:1024px) {
+    .contianer{
+        header{
+            .header-sign{
+                a{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width:800px) {
+    .contianer{
+        header{
+            .header-links, .header-sign{
+                display: none;
+            }
+            .header-menu{
+                display: block;
+            }
+        }
+    }
+}

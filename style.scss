@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+    text-decoration: none;
+}
+
+:root {
+    --text-color: #4F5665;
+    --text-color2: #0B132A;
+    --text-color3: #F53855;
+}
+
+.contianer {
+    max-width: 1440px;
+    margin: auto;
+    height: 300px;
+
+    header {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        position: sticky;
+        top: 0;
+        padding: 20px;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            h2 {
+                font-size: 20px;
+                font-weight: 500;
+
+                b {
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .header-links {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 40px;
+
+            li {
+                a {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: var(--text-color);
+
+
+                }
+            }
+        }
+
+        .header-sign {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            a {
+                font-size: 16px;
+                font-weight: 600;
+                color: var(--text-color2);
+            }
+
+            button {
+                width: 150px;
+                height: 45px;
+                border: none;
+                background-color: #fff;
+                border-radius: 20px;
+                cursor: pointer;
+                border: 2px solid var(--text-color3);
+                color: var(--text-color3);
+                font-size: 16px;
+                font-weight: 500;
+
+            }
+        }
+        .header-menu{
+            font-size: 30px;
+            display: none;
+        }
+
+    }
+}
+
+@import './responsive'
