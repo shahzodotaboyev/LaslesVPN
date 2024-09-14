@@ -175,8 +175,54 @@
                     }
                 }
             }
-            .border-none{
+
+            .border-none {
                 border: none;
+            }
+        }
+
+        .section-3 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 20px;
+
+                h1 {
+                    font-size: 35px;
+                    font-weight: 500;
+                    max-width: 380px;
+
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: var(--text-color);
+                    max-width: 427px;
+                    line-height: 30px;
+                }
+
+                div {
+                    gap: 15px;
+
+                    span {
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            width: 25px;
+                        }
+                    }
+                }
+            }
+
+            img {
+                width: 45%;
             }
         }
     }
