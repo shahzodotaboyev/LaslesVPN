@@ -61,6 +61,18 @@
                 display: block;
             }
         }
+        main{
+            .section-2{
+                height: auto;
+                flex-direction:column ;
+                gap: 30px;
+            div{
+                width: 100%;
+                justify-content: space-between;
+                border: none;
+            }
+            }
+        }
 
     }
 }
