@@ -332,7 +332,6 @@
   border: none;
   cursor: pointer;
 }
-
 @media (max-width: 1024px) {
   .contianer header .header-sign a {
     display: none;
